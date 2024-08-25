@@ -1,0 +1,954 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\viewmodels\\users\\createagentorclientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\viewmodels\\users\\createagentorclientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstatewebapp\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|solutionrelative:realstatewebapp\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstatewebapp\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|solutionrelative:realstatewebapp\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstatewebapp\\views\\user\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|solutionrelative:realstatewebapp\\views\\user\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstatewebapp\\views\\user\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|solutionrelative:realstatewebapp\\views\\user\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstatewebapp\\controllers\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|solutionrelative:realstatewebapp\\controllers\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstatewebapp\\controllers\\clienthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|solutionrelative:realstatewebapp\\controllers\\clienthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstatewebapp\\controllers\\agenthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|solutionrelative:realstatewebapp\\controllers\\agenthomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\features\\improvements\\commands\\deleteimprovementbyid\\deleteimprovementbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\features\\improvements\\commands\\deleteimprovementbyid\\deleteimprovementbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B03D9A4-947B-4C87-A6E8-127C87E86EC3}|RealStateApp.WebApi\\RealStateApp.WebApi.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.webapi\\controllers\\v1\\improvementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B03D9A4-947B-4C87-A6E8-127C87E86EC3}|RealStateApp.WebApi\\RealStateApp.WebApi.csproj|solutionrelative:realstateapp.webapi\\controllers\\v1\\improvementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\features\\improvements\\commands\\createimprovement\\createimprovementcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\features\\improvements\\commands\\createimprovement\\createimprovementcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\features\\improvements\\queries\\getallimprovements\\getallimprovementsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\features\\improvements\\queries\\getallimprovements\\getallimprovementsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\features\\properties\\queries\\getproperty\\getpropertyquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\features\\properties\\queries\\getproperty\\getpropertyquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\features\\agents\\queries\\getallagents\\getallagentsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\features\\agents\\queries\\getallagents\\getallagentsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B03D9A4-947B-4C87-A6E8-127C87E86EC3}|RealStateApp.WebApi\\RealStateApp.WebApi.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B03D9A4-947B-4C87-A6E8-127C87E86EC3}|RealStateApp.WebApi\\RealStateApp.WebApi.csproj|solutionrelative:realstateapp.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstatewebapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|solutionrelative:realstatewebapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstatewebapp\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|solutionrelative:realstatewebapp\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstatewebapp\\controllers\\improvementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|solutionrelative:realstatewebapp\\controllers\\improvementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstatewebapp\\controllers\\saletypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|solutionrelative:realstatewebapp\\controllers\\saletypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstatewebapp\\controllers\\propertytypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|solutionrelative:realstatewebapp\\controllers\\propertytypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstatewebapp\\views\\agenthome\\getallbyagentid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|solutionrelative:realstatewebapp\\views\\agenthome\\getallbyagentid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstatewebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|solutionrelative:realstatewebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstatewebapp\\middlewares\\loginauthorize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|solutionrelative:realstatewebapp\\middlewares\\loginauthorize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstatewebapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|solutionrelative:realstatewebapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstatewebapp\\controllers\\developercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|solutionrelative:realstatewebapp\\controllers\\developercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstatewebapp\\controllers\\adminhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DD6323-2CF1-4A91-94F5-E9FDA8995AAA}|RealStateWebApp\\RealStateApp.WebApp.csproj|solutionrelative:realstatewebapp\\controllers\\adminhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB00865C-982F-49E7-89F8-675035F4C268}|RealStateApp.Infrastructure.Identity\\RealStateApp.Infrastructure.Identity.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.infrastructure.identity\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB00865C-982F-49E7-89F8-675035F4C268}|RealStateApp.Infrastructure.Identity\\RealStateApp.Infrastructure.Identity.csproj|solutionrelative:realstateapp.infrastructure.identity\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B03D9A4-947B-4C87-A6E8-127C87E86EC3}|RealStateApp.WebApi\\RealStateApp.WebApi.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.webapi\\controllers\\v1\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B03D9A4-947B-4C87-A6E8-127C87E86EC3}|RealStateApp.WebApi\\RealStateApp.WebApi.csproj|solutionrelative:realstateapp.webapi\\controllers\\v1\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B03D9A4-947B-4C87-A6E8-127C87E86EC3}|RealStateApp.WebApi\\RealStateApp.WebApi.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.webapi\\controllers\\v1\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B03D9A4-947B-4C87-A6E8-127C87E86EC3}|RealStateApp.WebApi\\RealStateApp.WebApi.csproj|solutionrelative:realstateapp.webapi\\controllers\\v1\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\dtos\\account\\authenticationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\dtos\\account\\authenticationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B03D9A4-947B-4C87-A6E8-127C87E86EC3}|RealStateApp.WebApi\\RealStateApp.WebApi.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.webapi\\controllers\\v1\\saletypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B03D9A4-947B-4C87-A6E8-127C87E86EC3}|RealStateApp.WebApi\\RealStateApp.WebApi.csproj|solutionrelative:realstateapp.webapi\\controllers\\v1\\saletypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\features\\propertytypes\\commands\\createpropertytype\\createpropertytypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\features\\propertytypes\\commands\\createpropertytype\\createpropertytypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B03D9A4-947B-4C87-A6E8-127C87E86EC3}|RealStateApp.WebApi\\RealStateApp.WebApi.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.webapi\\controllers\\v1\\propertytypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B03D9A4-947B-4C87-A6E8-127C87E86EC3}|RealStateApp.WebApi\\RealStateApp.WebApi.csproj|solutionrelative:realstateapp.webapi\\controllers\\v1\\propertytypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\features\\saletypes\\commands\\deletesaletypebyid\\deletesaletypebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\features\\saletypes\\commands\\deletesaletypebyid\\deletesaletypebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\features\\propertytypes\\commands\\deletepropertytypebyid\\deletepropertytypebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\features\\propertytypes\\commands\\deletepropertytypebyid\\deletepropertytypebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\features\\saletypes\\commands\\updatesaletype\\updatesaletypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\features\\saletypes\\commands\\updatesaletype\\updatesaletypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B03D9A4-947B-4C87-A6E8-127C87E86EC3}|RealStateApp.WebApi\\RealStateApp.WebApi.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B03D9A4-947B-4C87-A6E8-127C87E86EC3}|RealStateApp.WebApi\\RealStateApp.WebApi.csproj|solutionrelative:realstateapp.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B03D9A4-947B-4C87-A6E8-127C87E86EC3}|RealStateApp.WebApi\\RealStateApp.WebApi.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.webapi\\extensions\\appextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B03D9A4-947B-4C87-A6E8-127C87E86EC3}|RealStateApp.WebApi\\RealStateApp.WebApi.csproj|solutionrelative:realstateapp.webapi\\extensions\\appextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B03D9A4-947B-4C87-A6E8-127C87E86EC3}|RealStateApp.WebApi\\RealStateApp.WebApi.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.webapi\\extensions\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B03D9A4-947B-4C87-A6E8-127C87E86EC3}|RealStateApp.WebApi\\RealStateApp.WebApi.csproj|solutionrelative:realstateapp.webapi\\extensions\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2CD282A-7675-4D33-901C-9E63FF5F6545}|RealStateApp.Infrastructure.Persistance\\RealStateApp.Infrastructure.Persistance.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.infrastructure.persistance\\repositories\\propertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2CD282A-7675-4D33-901C-9E63FF5F6545}|RealStateApp.Infrastructure.Persistance\\RealStateApp.Infrastructure.Persistance.csproj|solutionrelative:realstateapp.infrastructure.persistance\\repositories\\propertyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\features\\saletypes\\commands\\updatesaletype\\saletypeupdateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\features\\saletypes\\commands\\updatesaletype\\saletypeupdateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\features\\saletypes\\queries\\getallsaletypes\\getallsaletypesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\features\\saletypes\\queries\\getallsaletypes\\getallsaletypesquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\dtos\\improvement\\improvementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\dtos\\improvement\\improvementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\mappings\\generalprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\mappings\\generalprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB00865C-982F-49E7-89F8-675035F4C268}|RealStateApp.Infrastructure.Identity\\RealStateApp.Infrastructure.Identity.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.infrastructure.identity\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB00865C-982F-49E7-89F8-675035F4C268}|RealStateApp.Infrastructure.Identity\\RealStateApp.Infrastructure.Identity.csproj|solutionrelative:realstateapp.infrastructure.identity\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\dtos\\property\\propertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\dtos\\property\\propertydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\dtos\\agent\\agentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\dtos\\agent\\agentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\dtos\\agent\\updateagentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\dtos\\agent\\updateagentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\dtos\\agent\\getactiveagentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\dtos\\agent\\getactiveagentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\services\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A91F8D0-79D6-47EC-BE80-C94F6E11A8DF}|RealStateApp.Core.Domain\\RealStateApp.Core.Domain.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.domain\\entities\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A91F8D0-79D6-47EC-BE80-C94F6E11A8DF}|RealStateApp.Core.Domain\\RealStateApp.Core.Domain.csproj|solutionrelative:realstateapp.core.domain\\entities\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\viewmodels\\properties\\propertyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\viewmodels\\properties\\propertyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\services\\improvementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\services\\improvementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\features\\propertytypes\\commands\\updatepropertytype\\propertytypeupdateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\features\\propertytypes\\commands\\updatepropertytype\\propertytypeupdateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\dtos\\propertytype\\propertytypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\dtos\\propertytype\\propertytypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|c:\\users\\oriam\\desktop\\programacion3\\realstateapp\\realstateapp.core.application\\dtos\\saletype\\saletypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32F8C5B-AE9A-4A8F-BF97-24A0B136F552}|RealStateApp.Core.Application\\RealStateApp.Core.Application.csproj|solutionrelative:realstateapp.core.application\\dtos\\saletype\\saletypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateAgentOrClientViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\ViewModels\\Users\\CreateAgentOrClientViewModel.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\ViewModels\\Users\\CreateAgentOrClientViewModel.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\ViewModels\\Users\\CreateAgentOrClientViewModel.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\ViewModels\\Users\\CreateAgentOrClientViewModel.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAzwCoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T23:05:13.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Views\\User\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "RealStateWebApp\\Views\\User\\ConfirmEmail.cshtml",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Views\\User\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "RealStateWebApp\\Views\\User\\ConfirmEmail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-09T23:15:29.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "RealStateWebApp\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "RealStateWebApp\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-09T22:58:26.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "RealStateWebApp\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "RealStateWebApp\\Views\\User\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-09T23:05:05.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Views\\User\\Update.cshtml",
+              "RelativeDocumentMoniker": "RealStateWebApp\\Views\\User\\Update.cshtml",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Views\\User\\Update.cshtml",
+              "RelativeToolTip": "RealStateWebApp\\Views\\User\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-09T23:15:27.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeleteImprovementByIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\Improvements\\Commands\\DeleteImprovementById\\DeleteImprovementByIdCommand.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Features\\Improvements\\Commands\\DeleteImprovementById\\DeleteImprovementByIdCommand.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\Improvements\\Commands\\DeleteImprovementById\\DeleteImprovementByIdCommand.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Features\\Improvements\\Commands\\DeleteImprovementById\\DeleteImprovementByIdCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T22:46:16.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetAllImprovementsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\Improvements\\Queries\\GetAllImprovements\\GetAllImprovementsQuery.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Features\\Improvements\\Queries\\GetAllImprovements\\GetAllImprovementsQuery.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\Improvements\\Queries\\GetAllImprovements\\GetAllImprovementsQuery.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Features\\Improvements\\Queries\\GetAllImprovements\\GetAllImprovementsQuery.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAArwB8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T22:46:16.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientHomeController.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\ClientHomeController.cs",
+              "RelativeDocumentMoniker": "RealStateWebApp\\Controllers\\ClientHomeController.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\ClientHomeController.cs",
+              "RelativeToolTip": "RealStateWebApp\\Controllers\\ClientHomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAEkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T22:53:43.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AgentHomeController.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\AgentHomeController.cs",
+              "RelativeDocumentMoniker": "RealStateWebApp\\Controllers\\AgentHomeController.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\AgentHomeController.cs",
+              "RelativeToolTip": "RealStateWebApp\\Controllers\\AgentHomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T07:48:57.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AgentController.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\AgentController.cs",
+              "RelativeDocumentMoniker": "RealStateWebApp\\Controllers\\AgentController.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\AgentController.cs",
+              "RelativeToolTip": "RealStateWebApp\\Controllers\\AgentController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwCcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T19:38:38.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ImprovementController.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.WebApi\\Controllers\\v1\\ImprovementController.cs",
+              "RelativeDocumentMoniker": "RealStateApp.WebApi\\Controllers\\v1\\ImprovementController.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.WebApi\\Controllers\\v1\\ImprovementController.cs",
+              "RelativeToolTip": "RealStateApp.WebApi\\Controllers\\v1\\ImprovementController.cs",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAnwKgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T19:32:45.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateImprovementCommand.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\Improvements\\Commands\\CreateImprovement\\CreateImprovementCommand.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Features\\Improvements\\Commands\\CreateImprovement\\CreateImprovementCommand.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\Improvements\\Commands\\CreateImprovement\\CreateImprovementCommand.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Features\\Improvements\\Commands\\CreateImprovement\\CreateImprovementCommand.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAArwCoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T22:46:16.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetPropertyQuery.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\Properties\\Queries\\GetProperty\\GetPropertyQuery.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Features\\Properties\\Queries\\GetProperty\\GetPropertyQuery.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\Properties\\Queries\\GetProperty\\GetPropertyQuery.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Features\\Properties\\Queries\\GetProperty\\GetPropertyQuery.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAArwD4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T22:59:47.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetAllAgentsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\Agents\\Queries\\GetAllAgents\\GetAllAgentsQuery.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Features\\Agents\\Queries\\GetAllAgents\\GetAllAgentsQuery.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\Agents\\Queries\\GetAllAgents\\GetAllAgentsQuery.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Features\\Agents\\Queries\\GetAllAgents\\GetAllAgentsQuery.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAArwCQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T22:59:47.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "RealStateWebApp\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "RealStateWebApp\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAEwE4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T19:38:38.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.WebApi\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "RealStateApp.WebApi\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.WebApi\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "RealStateApp.WebApi\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAnwH0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T19:38:38.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ImprovementController.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\ImprovementController.cs",
+              "RelativeDocumentMoniker": "RealStateWebApp\\Controllers\\ImprovementController.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\ImprovementController.cs",
+              "RelativeToolTip": "RealStateWebApp\\Controllers\\ImprovementController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwBQAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T22:54:21.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SaleTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\SaleTypeController.cs",
+              "RelativeDocumentMoniker": "RealStateWebApp\\Controllers\\SaleTypeController.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\SaleTypeController.cs",
+              "RelativeToolTip": "RealStateWebApp\\Controllers\\SaleTypeController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwBIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T22:57:09.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PropertyTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\PropertyTypeController.cs",
+              "RelativeDocumentMoniker": "RealStateWebApp\\Controllers\\PropertyTypeController.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\PropertyTypeController.cs",
+              "RelativeToolTip": "RealStateWebApp\\Controllers\\PropertyTypeController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T04:10:05.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetAllByAgentId.cshtml",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Views\\AgentHome\\GetAllByAgentId.cshtml",
+              "RelativeDocumentMoniker": "RealStateWebApp\\Views\\AgentHome\\GetAllByAgentId.cshtml",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Views\\AgentHome\\GetAllByAgentId.cshtml",
+              "RelativeToolTip": "RealStateWebApp\\Views\\AgentHome\\GetAllByAgentId.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-08T23:20:28.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "RealStateWebApp\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "RealStateWebApp\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAYwJQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T22:54:36.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PropertyController.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\PropertyController.cs",
+              "RelativeDocumentMoniker": "RealStateWebApp\\Controllers\\PropertyController.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\PropertyController.cs",
+              "RelativeToolTip": "RealStateWebApp\\Controllers\\PropertyController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T07:49:02.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginAuthorize.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Middlewares\\LoginAuthorize.cs",
+              "RelativeDocumentMoniker": "RealStateWebApp\\Middlewares\\LoginAuthorize.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Middlewares\\LoginAuthorize.cs",
+              "RelativeToolTip": "RealStateWebApp\\Middlewares\\LoginAuthorize.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwC8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T23:05:56.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "RealStateWebApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "RealStateWebApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAewB0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T01:51:19.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DeveloperController.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\DeveloperController.cs",
+              "RelativeDocumentMoniker": "RealStateWebApp\\Controllers\\DeveloperController.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\DeveloperController.cs",
+              "RelativeToolTip": "RealStateWebApp\\Controllers\\DeveloperController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T22:53:48.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdminHomeController.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\AdminHomeController.cs",
+              "RelativeDocumentMoniker": "RealStateWebApp\\Controllers\\AdminHomeController.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\Controllers\\AdminHomeController.cs",
+              "RelativeToolTip": "RealStateWebApp\\Controllers\\AdminHomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T22:52:18.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Infrastructure.Identity\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Infrastructure.Identity\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Infrastructure.Identity\\ServiceRegistration.cs",
+              "RelativeToolTip": "RealStateApp.Infrastructure.Identity\\ServiceRegistration.cs",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAjwMoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T21:26:58.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AgentController.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.WebApi\\Controllers\\v1\\AgentController.cs",
+              "RelativeDocumentMoniker": "RealStateApp.WebApi\\Controllers\\v1\\AgentController.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.WebApi\\Controllers\\v1\\AgentController.cs",
+              "RelativeToolTip": "RealStateApp.WebApi\\Controllers\\v1\\AgentController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAACIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T22:46:16.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PropertyController.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.WebApi\\Controllers\\v1\\PropertyController.cs",
+              "RelativeDocumentMoniker": "RealStateApp.WebApi\\Controllers\\v1\\PropertyController.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.WebApi\\Controllers\\v1\\PropertyController.cs",
+              "RelativeToolTip": "RealStateApp.WebApi\\Controllers\\v1\\PropertyController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T03:54:26.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AuthenticationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Dtos\\Account\\AuthenticationRequest.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Dtos\\Account\\AuthenticationRequest.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Dtos\\Account\\AuthenticationRequest.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Dtos\\Account\\AuthenticationRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T22:45:57.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SaleTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.WebApi\\Controllers\\v1\\SaleTypeController.cs",
+              "RelativeDocumentMoniker": "RealStateApp.WebApi\\Controllers\\v1\\SaleTypeController.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.WebApi\\Controllers\\v1\\SaleTypeController.cs",
+              "RelativeToolTip": "RealStateApp.WebApi\\Controllers\\v1\\SaleTypeController.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAYwF4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T22:35:49.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreatePropertyTypeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\PropertyTypes\\Commands\\CreatePropertyType\\CreatePropertyTypeCommand.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Features\\PropertyTypes\\Commands\\CreatePropertyType\\CreatePropertyTypeCommand.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\PropertyTypes\\Commands\\CreatePropertyType\\CreatePropertyTypeCommand.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Features\\PropertyTypes\\Commands\\CreatePropertyType\\CreatePropertyTypeCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T22:41:20.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PropertyTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.WebApi\\Controllers\\v1\\PropertyTypeController.cs",
+              "RelativeDocumentMoniker": "RealStateApp.WebApi\\Controllers\\v1\\PropertyTypeController.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.WebApi\\Controllers\\v1\\PropertyTypeController.cs",
+              "RelativeToolTip": "RealStateApp.WebApi\\Controllers\\v1\\PropertyTypeController.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAYwF8AAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T02:30:45.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DeletePropertyTypeByIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\PropertyTypes\\Commands\\DeletePropertyTypeById\\DeletePropertyTypeByIdCommand.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Features\\PropertyTypes\\Commands\\DeletePropertyTypeById\\DeletePropertyTypeByIdCommand.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\PropertyTypes\\Commands\\DeletePropertyTypeById\\DeletePropertyTypeByIdCommand.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Features\\PropertyTypes\\Commands\\DeletePropertyTypeById\\DeletePropertyTypeByIdCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T22:39:40.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DeleteSaleTypeByIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\SaleTypes\\Commands\\DeleteSaleTypeById\\DeleteSaleTypeByIdCommand.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Features\\SaleTypes\\Commands\\DeleteSaleTypeById\\DeleteSaleTypeByIdCommand.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\SaleTypes\\Commands\\DeleteSaleTypeById\\DeleteSaleTypeByIdCommand.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Features\\SaleTypes\\Commands\\DeleteSaleTypeById\\DeleteSaleTypeByIdCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T05:36:32.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UpdateSaleTypeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\SaleTypes\\Commands\\UpdateSaleType\\UpdateSaleTypeCommand.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Features\\SaleTypes\\Commands\\UpdateSaleType\\UpdateSaleTypeCommand.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\SaleTypes\\Commands\\UpdateSaleType\\UpdateSaleTypeCommand.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Features\\SaleTypes\\Commands\\UpdateSaleType\\UpdateSaleTypeCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T05:36:21.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "RealStateApp.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.WebApi\\Program.cs",
+              "RelativeToolTip": "RealStateApp.WebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T21:29:26.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AppExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.WebApi\\Extensions\\AppExtensions.cs",
+              "RelativeDocumentMoniker": "RealStateApp.WebApi\\Extensions\\AppExtensions.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.WebApi\\Extensions\\AppExtensions.cs",
+              "RelativeToolTip": "RealStateApp.WebApi\\Extensions\\AppExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T21:28:19.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ServiceExtension.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.WebApi\\Extensions\\ServiceExtension.cs",
+              "RelativeDocumentMoniker": "RealStateApp.WebApi\\Extensions\\ServiceExtension.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.WebApi\\Extensions\\ServiceExtension.cs",
+              "RelativeToolTip": "RealStateApp.WebApi\\Extensions\\ServiceExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T21:27:42.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GetAllSaleTypesQuery.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\SaleTypes\\Queries\\GetAllSaleTypes\\GetAllSaleTypesQuery.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Features\\SaleTypes\\Queries\\GetAllSaleTypes\\GetAllSaleTypesQuery.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\SaleTypes\\Queries\\GetAllSaleTypes\\GetAllSaleTypesQuery.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Features\\SaleTypes\\Queries\\GetAllSaleTypes\\GetAllSaleTypesQuery.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAIA2wCYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T05:36:14.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PropertyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Infrastructure.Persistance\\Repositories\\PropertyRepository.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Infrastructure.Persistance\\Repositories\\PropertyRepository.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Infrastructure.Persistance\\Repositories\\PropertyRepository.cs",
+              "RelativeToolTip": "RealStateApp.Infrastructure.Persistance\\Repositories\\PropertyRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T02:02:14.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SaleTypeUpdateResponse.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\SaleTypes\\Commands\\UpdateSaleType\\SaleTypeUpdateResponse.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Features\\SaleTypes\\Commands\\UpdateSaleType\\SaleTypeUpdateResponse.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\SaleTypes\\Commands\\UpdateSaleType\\SaleTypeUpdateResponse.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Features\\SaleTypes\\Commands\\UpdateSaleType\\SaleTypeUpdateResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T05:36:26.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ImprovementDto.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Dtos\\Improvement\\ImprovementDto.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Dtos\\Improvement\\ImprovementDto.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Dtos\\Improvement\\ImprovementDto.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Dtos\\Improvement\\ImprovementDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T05:44:37.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GeneralProfile.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Mappings\\GeneralProfile.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Mappings\\GeneralProfile.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Mappings\\GeneralProfile.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Mappings\\GeneralProfile.cs",
+              "ViewState": "AQIAAAYBAAAAAAAAAAAcwB0BAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T07:59:57.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Infrastructure.Identity\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Infrastructure.Identity\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Infrastructure.Identity\\Services\\AccountService.cs",
+              "RelativeToolTip": "RealStateApp.Infrastructure.Identity\\Services\\AccountService.cs",
+              "ViewState": "AQIAALICAAAAAAAAAAAMwMUCAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T19:08:04.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AgentDto.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Dtos\\Agent\\AgentDto.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Dtos\\Agent\\AgentDto.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Dtos\\Agent\\AgentDto.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Dtos\\Agent\\AgentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T18:34:32.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PropertyDto.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Dtos\\Property\\PropertyDto.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Dtos\\Property\\PropertyDto.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Dtos\\Property\\PropertyDto.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Dtos\\Property\\PropertyDto.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T02:05:03.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UpdateAgentRequest.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Dtos\\Agent\\UpdateAgentRequest.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Dtos\\Agent\\UpdateAgentRequest.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Dtos\\Agent\\UpdateAgentRequest.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Dtos\\Agent\\UpdateAgentRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T18:34:53.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "GetActiveAgentResponse.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Dtos\\Agent\\GetActiveAgentResponse.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Dtos\\Agent\\GetActiveAgentResponse.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Dtos\\Agent\\GetActiveAgentResponse.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Dtos\\Agent\\GetActiveAgentResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T18:34:16.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PropertyService.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Services\\PropertyService.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Services\\PropertyService.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Services\\PropertyService.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Services\\PropertyService.cs",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAnwNQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T03:43:59.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Property.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Domain\\Entities\\Property.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Domain\\Entities\\Property.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Domain\\Entities\\Property.cs",
+              "RelativeToolTip": "RealStateApp.Core.Domain\\Entities\\Property.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAwwBsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T06:10:02.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "PropertyViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\ViewModels\\Properties\\PropertyViewModel.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\ViewModels\\Properties\\PropertyViewModel.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\ViewModels\\Properties\\PropertyViewModel.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\ViewModels\\Properties\\PropertyViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T06:11:15.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ImprovementService.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Services\\ImprovementService.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Services\\ImprovementService.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Services\\ImprovementService.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Services\\ImprovementService.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwE4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T06:03:31.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "PropertyTypeUpdateResponse.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\PropertyTypes\\Commands\\UpdatePropertyType\\PropertyTypeUpdateResponse.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Features\\PropertyTypes\\Commands\\UpdatePropertyType\\PropertyTypeUpdateResponse.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Features\\PropertyTypes\\Commands\\UpdatePropertyType\\PropertyTypeUpdateResponse.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Features\\PropertyTypes\\Commands\\UpdatePropertyType\\PropertyTypeUpdateResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T05:46:33.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "PropertyTypeDto.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Dtos\\PropertyType\\PropertyTypeDto.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Dtos\\PropertyType\\PropertyTypeDto.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Dtos\\PropertyType\\PropertyTypeDto.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Dtos\\PropertyType\\PropertyTypeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T05:12:22.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "SaleTypeDto.cs",
+              "DocumentMoniker": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Dtos\\SaleType\\SaleTypeDto.cs",
+              "RelativeDocumentMoniker": "RealStateApp.Core.Application\\Dtos\\SaleType\\SaleTypeDto.cs",
+              "ToolTip": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Application\\Dtos\\SaleType\\SaleTypeDto.cs",
+              "RelativeToolTip": "RealStateApp.Core.Application\\Dtos\\SaleType\\SaleTypeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T05:12:06.983Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

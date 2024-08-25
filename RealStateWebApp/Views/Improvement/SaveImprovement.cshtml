@@ -1,0 +1,63 @@
+﻿@model RealStateApp.Core.Application.ViewModels.Improvements.SaveImprovementViewModel
+@{
+    bool isedit = true;
+    if (Model.Id == 0)
+    {
+        isedit = false;
+        ViewData["Title"] = "Crear tipo de mejora";
+
+    }
+    else
+    {
+        isedit = true;
+        ViewData["Title"] = "Editar mejora";
+
+    }
+
+}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-black text-light">
+                    <h4>@(isedit ? $"Editando mejora: {Model.Name}" : "Creando nueva mejora")</h4>
+
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-controller="Improvement" asp-action="@(isedit ? "Update" : "Create")">
+                        @if (Model.HasError)
+                        {
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                <p>@Model.Error</p>
+                                <buttom type="buttom" class="btn-close" data-bs-dismiss="alert" aria-label="Close"> </buttom>
+                            </div>
+                        }
+
+                        <div class="mb-2">
+                            <label asp-for="Name" class="form-label">Nombre: </label>
+                            <input asp-for="Name" type="text" class="form-control" placeholder="Ingrese el nombre de la mejora" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-2">
+                            <label asp-for="Description" class="form-label">Descripcion: </label>
+                            <input asp-for="Description" type="text" class="form-control" placeholder="Ingrese la descripcion de la mejora" />
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="mt-4">
+                            <button type="submit" class="btn btn-primary">Guardar</button>
+                            <a asp-controller="AdminHome" asp-action="Improvements" class="btn btn-warning">Volver</a>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,88 @@
+﻿@using RealStateApp.Core.Application.Enums
+@model RealStateApp.Core.Application.ViewModels.Users.CreateAdminOrDeveloperViewModel
+
+@{
+    ViewData["Title"] = "Registro admin";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-black text-light">
+                    <h4>Registrar admin</h4>
+
+                </div>
+                <div class="card-body">
+                    <form method="post" enctype="multipart/form-data" asp-controller="Admin" asp-action="Register">
+
+                        @if (Model.HasError)
+                        {
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                <p>@Model.Error</p>
+                                <buttom type="buttom" class="btn-close" data-bs-dismiss="alert" aria-label="Close"> </buttom>
+                            </div>
+                        }
+
+
+                        <div class="mb-2">
+                            <label asp-for="FirstName" class="form-label">Nombre: </label>
+                            <input asp-for="FirstName" class="form-control" placeholder="Ingrese el nombre" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-2">
+                            <label asp-for="LastName" class="form-label">Apellido: </label>
+                            <input asp-for="LastName" class="form-control" placeholder="Ingrese el apellido" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-2">
+                            <label asp-for="Dni" class="form-label">Cedula: </label>
+                            <input asp-for="Dni" class="form-control" placeholder="Ingrese la Cedula" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-2">
+                            <label asp-for="Email" class="form-label">Correo: </label>
+                            <input asp-for="Email" class="form-control" placeholder="Ingrese el correo" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-2">
+                            <label asp-for="UserName" class="form-label">Nombre de usuario: </label>
+                            <input asp-for="UserName" class="form-control" placeholder="Ingrese el nombre de usuario" />
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-2">
+                            <label asp-for="Password" class="form-label">Contraseña: </label>
+                            <input asp-for="Password" class="form-control" placeholder="Ingrese la contraseña" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-2">
+                            <label asp-for="ConfirmPassword" class="form-label">Confirmar Contraseña: </label>
+                            <input asp-for="ConfirmPassword" class="form-control" placeholder="Ingrese la contraseña nuevamente" />
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="mt-4">
+                            <button type="submit" class="btn btn-primary">Registrar</button>
+                            <a asp-controller="AdminHome" asp-action="Developers" class="btn btn-warning">Volver</a>
+
+                        </div>
+
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+

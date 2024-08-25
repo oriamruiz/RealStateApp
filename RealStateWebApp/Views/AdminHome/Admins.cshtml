@@ -1,0 +1,114 @@
+﻿@model List<RealStateApp.Core.Application.ViewModels.AdminHome.AdminHomeAdminViewModel>
+@using RealStateApp.Core.Application.Dtos.Account;
+@using RealStateApp.Core.Application.Helpers.Sessions;
+@inject IHttpContextAccessor httpContextAccessor
+@{
+    var User = httpContextAccessor.HttpContext.Session.Get<AuthenticationResponse>("user");
+}
+
+@{
+    ViewData["Title"] = "Mant. de Admins";
+
+}
+<div class="container-fluid">
+    <div class="row mb-2">
+        <div class="col-9">
+            <h2 class="float-start">Mantenimiento de Administradores</h2>
+
+        </div>
+        <div class="col-3 ">
+
+            <a asp-controller="Admin" asp-action="Register" class="btn btn-outline-success float-end">Crear admin</a>
+
+        </div>
+
+
+    </div>
+
+    <div class="row">
+
+        @if (Model == null || Model.Count() == 0)
+        {
+            <div class="alert alert-warning ms-2" role="alert">
+                No hay administradores para mostrar
+            </div>
+
+        }
+        else
+        {
+            @foreach (var admin in Model)
+            {
+
+
+
+                <div class="col-md-6 col-lg-2 mb-6">
+                    <div class="card shadow-sm border-light">
+                        <div class="card-body">
+                            @if (admin.Id == User.Id)
+                            {
+                                <h5 class="card-title">@admin.UserName (Tu)</h5>
+                            }
+                            else
+                            {
+                                <h5 class="card-title">@admin.UserName </h5>
+                            }
+
+                                <hr />
+
+                            @if (admin.IsActive)
+                            {
+                                <span><strong>Estado:</strong></span>
+
+                                <p class="text-success">Activo</p>
+
+                            }
+                            else
+                            {
+                                <span><strong>Estado:</strong></span>
+
+                                <p class="text-danger">Inactivo</p>
+
+                            }
+                                <p class="card-text custom-paragraph"><strong>Nombre:</strong> @admin.FirstName</p>
+                                <p class="card-text custom-paragraph"><strong>Apellido:</strong> @admin.LastName</p>
+                                <p class="card-text custom-paragraph"><strong>cédula:</strong> @admin.Dni</p>
+                                <p class="card-text custom-paragraph"><strong>Correo:</strong> @admin.Email </p>
+                            </div>
+                        
+                            <div class="card-footer">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    
+                                    @if (admin.Id != User.Id)
+                                    {
+                                        <div class="btn-group">
+                                    
+                                            @if (admin.IsActive)
+                                            {
+                                            <a asp-controller="Admin" asp-action="ChangeStatus" asp-route-id="@admin.Id" class="btn btn-sm btn-outline-danger">Inactivar</a>
+
+                                            }
+                                            else
+                                            {
+                                            <a asp-controller="Admin" asp-action="ChangeStatus" asp-route-id="@admin.Id" class="btn btn-sm btn-outline-success">Activar</a>
+                                            }
+
+                                        <a asp-controller="Admin" asp-action="Update" asp-route-id="@admin.Id" class="btn btn-sm btn-outline-info">Editar</a>
+                                        
+                                        </div>
+                                        
+                                    }
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               
+                
+
+            }
+
+        }
+
+    </div>
+
+</div>

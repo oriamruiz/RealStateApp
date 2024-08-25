@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "J3IsJ7xkZw/Ju4qzt5GCGn+1gnZz5S+TLzUrsboG4CM=",
+  "Source": "RealStateApp.WebApi",
+  "BasePath": "_content/RealStateApp.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

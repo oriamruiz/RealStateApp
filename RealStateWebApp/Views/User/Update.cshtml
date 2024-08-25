@@ -1,0 +1,105 @@
+﻿@* @using RealStateWebApp.Core.Application.Enums
+@model RealStateWebApp.Core.Application.ViewModels.Users.UpdateUserViewModel
+
+@{
+    ViewData["Title"] = "Editar usuario";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-black text-light">
+                    <h4>Editar usuario</h4>
+
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-controller="User" asp-action="Update">
+                        @if (Model.HasError)
+                        {
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                <p>@Model.Error</p>
+                                <buttom type="buttom" class="btn-close" data-bs-dismiss="alert" aria-label="Close"> </buttom>
+                            </div>
+                        }
+
+                        <div class="mb-2">
+                            <label asp-for="FirstName" class="form-label">Nombre: </label>
+                            <input asp-for="FirstName" class="form-control" placeholder="Ingrese el nuevo nombre" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-2">
+                            <label asp-for="LastName" class="form-label">Apellido: </label>
+                            <input asp-for="LastName" class="form-control" placeholder="Ingrese el nuevo apellido" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-2">
+                            <label asp-for="DNI" class="form-label">Cedula: </label>
+                            <input asp-for="DNI" class="form-control" placeholder="Ingrese la nueva cedula" />
+                            <span asp-validation-for="DNI" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="mb-2">
+                            <label asp-for="Email" class="form-label">Correo: </label>
+                            <input asp-for="Email" class="form-control" placeholder="Ingrese el nuevo correo" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="mb-2">
+                            <label asp-for="UserName" class="form-label">Nombre de usuario: </label>
+                            <input asp-for="UserName" class="form-control" placeholder="Ingrese el nuevo nombre de usuario" />
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+                        
+
+                        <div class="mb-2">
+                            <label asp-for="Password" class="form-label">Contraseña: </label>
+                            <input asp-for="Password" class="form-control" placeholder="Ingrese la contraseña" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-2">
+                            <label asp-for="ConfirmPassword" class="form-label">Confirmar Contraseña: </label>
+                            <input asp-for="ConfirmPassword" class="form-control" placeholder="Ingrese la contraseña nuevamente" />
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        </div>
+
+                        @if (Model.Roles.Contains(Roles.CLIENTE.ToString()))
+                        {
+                            <div class="mb-2">
+                                <label asp-for="AditionalAmmount" class="form-label">Monto adicional (opcional): </label>
+                                <input type="number" name="AditionalAmmount" class="form-control" placeholder="Ingrese el monto inicial"  />
+                                <span asp-validation-for="AditionalAmmount" class="text-danger"></span>
+                            </div>
+                        }
+
+                        <input type="hidden" asp-for="Id" />
+                        <input type="hidden" asp-for="Roles" />
+
+
+                        <div class="mt-4">
+                            <button type="submit" class="btn btn-primary">Editar</button>
+                            <a asp-controller="User" asp-action="AdministrateUser" asp-route-id="@Model.Id" class="btn btn-warning">Volver</a>
+
+                        </div>
+
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+ *@

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "HR+yPkJ/jXyS5z8wOB5nkVg48c4R+h7U+H8/AQ2HEA2b3VyI6fwnbMmOAxtZQx9dGWNVwfsZDfV0fQwjDxa85A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateApp.Core.Domain\\RealStateApp.Core.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oriam\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\oriam\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\oriam\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
+    "C:\\Users\\oriam\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\oriam\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\oriam\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}

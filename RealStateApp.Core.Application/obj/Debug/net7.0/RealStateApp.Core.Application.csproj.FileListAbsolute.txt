@@ -1,0 +1,17 @@
+C:\Users\oriam\Desktop\programacion3\RealStateApp\RealStateApp.Core.Application\bin\Debug\net7.0\RealStateApp.Core.Application.deps.json
+C:\Users\oriam\Desktop\programacion3\RealStateApp\RealStateApp.Core.Application\bin\Debug\net7.0\RealStateApp.Core.Application.dll
+C:\Users\oriam\Desktop\programacion3\RealStateApp\RealStateApp.Core.Application\bin\Debug\net7.0\RealStateApp.Core.Application.pdb
+C:\Users\oriam\Desktop\programacion3\RealStateApp\RealStateApp.Core.Application\bin\Debug\net7.0\RealStateApp.Core.Domain.dll
+C:\Users\oriam\Desktop\programacion3\RealStateApp\RealStateApp.Core.Application\bin\Debug\net7.0\RealStateApp.Core.Domain.pdb
+C:\Users\oriam\Desktop\programacion3\RealStateApp\RealStateApp.Core.Application\obj\Debug\net7.0\RealStateApp.Core.Application.csproj.AssemblyReference.cache
+C:\Users\oriam\Desktop\programacion3\RealStateApp\RealStateApp.Core.Application\obj\Debug\net7.0\RealStateApp.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oriam\Desktop\programacion3\RealStateApp\RealStateApp.Core.Application\obj\Debug\net7.0\RealStateApp.Core.Application.AssemblyInfoInputs.cache
+C:\Users\oriam\Desktop\programacion3\RealStateApp\RealStateApp.Core.Application\obj\Debug\net7.0\RealStateApp.Core.Application.AssemblyInfo.cs
+C:\Users\oriam\Desktop\programacion3\RealStateApp\RealStateApp.Core.Application\obj\Debug\net7.0\RealStateApp.Core.Application.csproj.CoreCompileInputs.cache
+C:\Users\oriam\Desktop\programacion3\RealStateApp\RealStateApp.Core.Application\obj\Debug\net7.0\RealStat.41C2041D.Up2Date
+C:\Users\oriam\Desktop\programacion3\RealStateApp\RealStateApp.Core.Application\obj\Debug\net7.0\RealStateApp.Core.Application.dll
+C:\Users\oriam\Desktop\programacion3\RealStateApp\RealStateApp.Core.Application\obj\Debug\net7.0\refint\RealStateApp.Core.Application.dll
+C:\Users\oriam\Desktop\programacion3\RealStateApp\RealStateApp.Core.Application\obj\Debug\net7.0\RealStateApp.Core.Application.pdb
+C:\Users\oriam\Desktop\programacion3\RealStateApp\RealStateApp.Core.Application\obj\Debug\net7.0\ref\RealStateApp.Core.Application.dll
+C:\Users\oriam\Desktop\programacion3\RealStateApp\RealStateApp.Core.Application\bin\Debug\net7.0\RealStateApp.Core.Application.xml
+C:\Users\oriam\Desktop\programacion3\RealStateApp\RealStateApp.Core.Application\obj\Debug\net7.0\RealStateApp.Core.Application.xml

@@ -1,0 +1,41 @@
+﻿@model RealStateApp.Core.Application.ViewModels.Properties.DeletePropertyViewModel
+@{
+
+    ViewData["Title"] = "Eliminar propiedad";
+
+}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-black text-light">
+                    <h4>Esta Seguro de eliminar la propiedad?</h4>
+
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-controller="Property" asp-action="DeletePost">
+                        <input type="hidden" asp-for="Id" />
+                        @if (Model.HasError)
+                        {
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                <p>@Model.Error</p>
+                                <buttom type="buttom" class="btn-close" data-bs-dismiss="alert" aria-label="Close"> </buttom>
+                            </div>
+                        }
+                        <div class="mt-4">
+                            <button type="submit" class="btn btn-danger">Eliminar</button>
+                            <a asp-controller="Property" asp-action="GetAllByAgentId" class="btn btn-warning">Volver</a>
+
+
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+

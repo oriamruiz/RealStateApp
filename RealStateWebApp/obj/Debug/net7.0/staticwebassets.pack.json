@@ -1,0 +1,305 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RealStateApp.WebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RealStateApp.WebApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\images\\Properties\\30\\MainImage\\8300d2aa-2266-44a6-9edc-d114bba9045d.png",
+      "PackagePath": "staticwebassets\\images\\Properties\\30\\MainImage\\8300d2aa-2266-44a6-9edc-d114bba9045d.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\images\\Properties\\30\\OptionalImages\\1a721958-2c28-4efb-940e-3f9d761c9e9e.png",
+      "PackagePath": "staticwebassets\\images\\Properties\\30\\OptionalImages\\1a721958-2c28-4efb-940e-3f9d761c9e9e.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\images\\Properties\\30\\OptionalImages\\d9db1eb6-d94c-4700-8a5f-5a73944bf8a5.png",
+      "PackagePath": "staticwebassets\\images\\Properties\\30\\OptionalImages\\d9db1eb6-d94c-4700-8a5f-5a73944bf8a5.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\images\\Properties\\31\\MainImage\\a67dacda-49fc-4092-9995-12aff17d2ca1.png",
+      "PackagePath": "staticwebassets\\images\\Properties\\31\\MainImage\\a67dacda-49fc-4092-9995-12aff17d2ca1.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\images\\Properties\\31\\OptionalImages\\716f2183-d6d0-4fca-9ccf-b566ec7d7ae5.png",
+      "PackagePath": "staticwebassets\\images\\Properties\\31\\OptionalImages\\716f2183-d6d0-4fca-9ccf-b566ec7d7ae5.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\images\\Properties\\31\\OptionalImages\\c3706de1-b90a-403f-bec5-7ddb341dea00.png",
+      "PackagePath": "staticwebassets\\images\\Properties\\31\\OptionalImages\\c3706de1-b90a-403f-bec5-7ddb341dea00.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\images\\Properties\\7\\MainImage\\7d6d6adf-46a4-4a05-a955-a6b61137f84e.png",
+      "PackagePath": "staticwebassets\\images\\Properties\\7\\MainImage\\7d6d6adf-46a4-4a05-a955-a6b61137f84e.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\images\\Users\\59268901-c0d2-4ba4-997d-7ef3f186a479\\0d586980-1012-4af7-a870-22502286db76.png",
+      "PackagePath": "staticwebassets\\images\\Users\\59268901-c0d2-4ba4-997d-7ef3f186a479\\0d586980-1012-4af7-a870-22502286db76.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\images\\Users\\a59f1445-8679-4a2d-a8a6-aaaad23b220a\\8031c82f-ae52-4507-94ba-f639b95a0cd0.png",
+      "PackagePath": "staticwebassets\\images\\Users\\a59f1445-8679-4a2d-a8a6-aaaad23b220a\\8031c82f-ae52-4507-94ba-f639b95a0cd0.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\images\\Users\\e26fce09-cbea-4a61-98b6-222a714bb5d7\\e6baf863-23e2-4524-b0b1-79ec4df89edc.png",
+      "PackagePath": "staticwebassets\\images\\Users\\e26fce09-cbea-4a61-98b6-222a714bb5d7\\e6baf863-23e2-4524-b0b1-79ec4df89edc.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\RealStateApp\\RealStateWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.RealStateApp.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.RealStateApp.WebApp.props",
+      "PackagePath": "build\\RealStateApp.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.RealStateApp.WebApp.props",
+      "PackagePath": "buildMultiTargeting\\RealStateApp.WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.RealStateApp.WebApp.props",
+      "PackagePath": "buildTransitive\\RealStateApp.WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

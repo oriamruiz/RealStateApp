@@ -1,0 +1,51 @@
+﻿@model RealStateApp.Core.Application.ViewModels.Users.UserViewModel
+@{
+
+    ViewData["Title"] = "Cambiar estado admin";
+    var IsActivating = Model.IsActive  ? false : true;
+
+}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-black text-light">
+                    <h4>Esta Seguro de @(IsActivating ? "Activar" : "Inactivar") el admin: "@Model.FirstName @Model.LastName"?</h4>
+
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-controller="Admin" asp-action="ChangeStatusPost">
+
+                        @if (Model.HasError)
+                        {
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                <p>@Model.Error</p>
+                                <buttom type="buttom" class="btn-close" data-bs-dismiss="alert" aria-label="Close"> </buttom>
+                            </div>
+                        }
+
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="mt-4">
+
+                            
+                            @if (IsActivating)
+                            {
+                                <button type="submit" class="btn btn-primary">Activar</button>
+                            }
+                            else{
+                                <button type="submit" class="btn btn-danger">Inactivar</button>
+                            }
+                            <a asp-controller="AdminHome" asp-action="Admins" class="btn btn-warning">Volver</a>
+
+
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>

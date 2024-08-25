@@ -1,0 +1,78 @@
+﻿@model List<RealStateApp.Core.Application.ViewModels.Agents.GetActiveAgentViewModel>
+@{
+    ViewData["Title"] = "Agentes";
+
+}
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-2">
+        </div>
+        <div class="col-10">
+            <h2 class="float-start">Listado de Agentes</h2>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-2 border border-dark border-2 rounded-3 rounded-end">
+
+
+            <div class="card mt-2" style="width: 100%;">
+                
+                <div class="card-body">
+                    <form method="post" asp-controller="Home" asp-action="SearchByName">
+                        <div class="mb-2">
+                            <label for="Name" class="form-label"> Busqueda por nombre</label>
+                            <input type="text" name="Name" id="name" class="form-control" />
+
+                            <input type="hidden" for="ActiveAgent" value="@Model"/>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2 w-100">Buscar</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        
+
+        <div class="col-10 ">
+
+            <div class="row">
+                @if (Model == null || Model.Count() == 0)
+                {
+                    <div class="alert alert-warning ms-2" role="alert">
+                        No hay agentes para mostrar
+                    </div>
+
+                }
+                else
+                {
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-3 mb-4">
+                            <div class="card shadow-sm">
+                                <img src="@item.AccountImgUrl" class="bd-placeholder-img card-img-top img-card-own" />
+                                <div class="card-body my-body-2">
+                                    <h5>@item.FirstName @item.LastName</h5>
+                                </div>
+
+                                <div class="card-body">
+                                    <a asp-controller="Home" asp-action="GetAllByAgentId" asp-route-id="@item.Id" class="btn btn-outline-warning float-start ">Propiedades</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    }
+
+
+
+                }
+            </div>
+        </div>
+
+    </div>
+
+</div>

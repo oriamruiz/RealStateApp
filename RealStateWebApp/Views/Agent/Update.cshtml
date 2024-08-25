@@ -1,0 +1,69 @@
+﻿@model RealStateApp.Core.Application.ViewModels.Agents.UpdateAgentViewModel
+
+@{
+    ViewData["Title"] = "Editar Perfil";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-black text-light">
+                    <h4>Editar Perfil</h4>
+
+                </div>
+                <div class="card-body">
+                    <form method="post" enctype="multipart/form-data" asp-controller="Agent" asp-action="Update">
+                        @if (Model.HasError)
+                        {
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                <p>@Model.Error</p>
+                                <buttom type="buttom" class="btn-close" data-bs-dismiss="alert" aria-label="Close"> </buttom>
+                            </div>
+                        }
+
+                        <div class="mb-2">
+                            <label asp-for="FirstName" class="form-label">Nombre: </label>
+                            <input asp-for="FirstName" class="form-control" placeholder="Ingrese el nombre" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-2">
+                            <label asp-for="LastName" class="form-label">Apellido: </label>
+                            <input asp-for="LastName" class="form-control" placeholder="Ingrese el apellido" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-2">
+                            <label asp-for="Phone" class="form-label">Telefono: </label>
+                            <input asp-for="Phone" class="form-control" placeholder="Ingrese el telefono" />
+                            <span asp-validation-for="Phone" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-2">
+                            <label asp-for="ImageFile" class="form-label">Imagen de perfil: </label>
+                            <input asp-for="ImageFile" class="form-control" />
+                        </div>
+                      
+
+                        <input type="hidden" asp-for="Id" />
+                        <input type="hidden" asp-for="AccountImgUrl" />
+
+
+                        <div class="mt-4">
+                            <button type="submit" class="btn btn-primary">Editar</button>
+                            <a asp-controller="AgentHome" asp-action="Index" asp-route-id="@Model.Id" class="btn btn-warning">Volver</a>
+
+                        </div>
+
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</div>

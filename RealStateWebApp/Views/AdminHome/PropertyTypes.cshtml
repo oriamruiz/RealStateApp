@@ -1,0 +1,65 @@
+﻿@model List<RealStateApp.Core.Application.ViewModels.AdminHome.AdminHomePropertyTypesViewModel>
+@{
+    ViewData["Title"] = "Mant. de tipo de propiedades";
+
+}
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-9">
+            <h2 class="float-start">Mantenimiento de tipo de propiedades</h2>
+
+        </div>
+        <div class="col-3 ">
+
+            <a asp-controller="PropertyType" asp-action="Create" class="btn btn-outline-success float-end">Agregar nuevo tipo de propiedad</a>
+
+        </div>
+
+
+    </div>
+
+    <div class="row">
+
+        @if (Model == null || Model.Count() == 0)
+        {
+            <div class="alert alert-warning ms-2" role="alert">
+                No hay tipos de propiedades creados
+            </div>
+
+        }
+        else
+        {
+            @foreach (var proptype in Model)
+            {
+
+                <div class="col-3 mb-4">
+                    <div class="card shadow-sm">
+
+                        <div class="card bg-light text-center ">
+                            <div class="card-body">
+                                <p class="card-text custom-paragraph"><strong>Nombre:</strong> @proptype.Name</p>
+                                <p class="card-text custom-paragraph"><strong>Descripcion:</strong> @proptype.Description</p>
+                                <p class="card-text custom-paragraph"><strong>Propiedades de este tipo:</strong> @proptype.Propertiesquantity</p>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="btn-group">
+                                    <a asp-controller="PropertyType" asp-action="Update" asp-route-id="@proptype.Id" class="btn btn-sm btn-outline-info">Editar</a>
+                                    <a asp-controller="PropertyType" asp-action="Delete" asp-route-id="@proptype.Id" class="btn btn-sm btn-outline-danger">Eliminar</a>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            }
+
+        }
+
+    </div>
+
+</div>

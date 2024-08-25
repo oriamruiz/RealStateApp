@@ -1,0 +1,27 @@
+﻿@model string
+
+@{
+    ViewData["Tittle"] = "Confirmar email";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-body">
+
+                    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                        <p>@(Model) - <a asp-controller="User" asp-action="Index">Inicia Sesion!</a></p>
+
+                        <buttom type="buttom" class="btn-close" data-bs-dismiss="alert" aria-label="Close"> </buttom>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</div>

@@ -1,0 +1,96 @@
+﻿@model List<RealStateApp.Core.Application.ViewModels.AdminHome.AdminHomeAgentViewModel>
+
+@{
+    ViewData["Title"] = "Listado de agentes";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-8 offset-2">
+            <div class="row mb-2">
+                <div class="col-9">
+                    <h2 class="float-start">Listado de Agentes</h2>
+
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="card">
+                    <div class="card-header text-dark">
+                        <h5>Lista de agentes <span class="text-danger float-end">Inactivos</span> <span class="text-success float-end me-2">Activos</span> </h5>
+
+                    </div>
+
+                    @if (Model != null && Model.Count > 0)
+                    {
+                        <div class="card-body">
+                            @foreach (var a in Model)
+                            {
+
+                                @if (a.IsActive)
+                                {
+                                    <div class="mb-2">
+                                        <span><strong>Estado:</strong></span><p class="text-success">Activo</p>
+                                        <p class="text-black"><strong>Nombre:</strong> @(a.FirstName)</p>
+                                        <p class="text-black"><strong>Apellido:</strong> @(a.LastName)</p>
+                                        <p class="text-black"><strong>Correo:</strong> @(a.Email)</p>
+                                        <p class="text-black"><strong>Cantidad de propiedades:</strong> @(a.Properties)</p>
+                                    </div>
+
+                                }
+                                else
+                                {
+                                    <div class="mb-2">
+                                        <span><strong>Estado:</strong></span><p class="text-danger">Inactivo</p>
+                                        <p class="text-black"><strong>Nombre:</strong> @(a.FirstName)</p>
+                                        <p class="text-black"><strong>Apellido:</strong> @(a.LastName)</p>
+                                        <p class="text-black"><strong>Correo:</strong> @(a.Email)</p>
+                                        <p class="text-black"><strong>Cantidad de propiedades:</strong> @(a.Properties)</p>
+                                    </div>
+                                }
+
+                                <div class="btn-group">
+
+
+
+                                    @if (a.IsActive)
+                                    {
+                                        <a asp-controller="Agent" asp-action="ChangeStatus" asp-route-id="@a.Id" class="btn btn-sm btn-outline-danger">Inactivar</a>
+
+                                    }
+                                    else
+                                    {
+                                        <a asp-controller="Agent" asp-action="ChangeStatus" asp-route-id="@a.Id" class="btn btn-sm btn-outline-success">Activar</a>
+                                    }
+
+                                    <a asp-controller="Agent" asp-action="Delete" asp-route-id="@a.Id" class="btn btn-sm btn-outline-danger">Eliminar</a>
+
+
+                                </div>
+
+                                <hr />
+                            }
+
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="alert alert-warning ms-2" role="alert">
+                            No hay agentes para mostrar
+                        </div>
+                    }
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+

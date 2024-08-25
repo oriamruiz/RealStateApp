@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.20" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.20">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.12" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.3.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RealStateApp.Core.Application\RealStateApp.Core.Application.csproj" />
+    <ProjectReference Include="..\RealStateApp.Core.Domain\RealStateApp.Core.Domain.csproj" />
+    <ProjectReference Include="..\RealStateApp.Infrastructure.Identity\RealStateApp.Infrastructure.Identity.csproj" />
+    <ProjectReference Include="..\RealStateApp.Infrastructure.Persistance\RealStateApp.Infrastructure.Persistance.csproj" />
+    <ProjectReference Include="..\RealStateApp.Infrastructure.Shared\RealStateApp.Infrastructure.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

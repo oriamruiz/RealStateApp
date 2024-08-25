@@ -1,0 +1,202 @@
+﻿@using RealStateApp.Core.Application.Dtos.Account
+@using RealStateApp.Core.Application.Enums;
+@using RealStateApp.Core.Application.Helpers.Sessions
+@inject IHttpContextAccessor httpContextAccessor
+@{
+    var User = httpContextAccessor.HttpContext.Session.Get<AuthenticationResponse>("user");
+    var IsAdmin = User != null ? User.Roles.Any(r=>r == Roles.ADMIN.ToString()) : false;
+    var IsAgent = User != null ? User.Roles.Any(r=>r ==Roles.AGENTE.ToString()) : false;
+    var IsClient = User != null ? User.Roles.Any(r=>r ==Roles.CLIENTE.ToString()) : false;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RealStateWebApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/RealStateWebApp.styles.css" asp-append-version="true" />
+    <style>
+        html, body {
+            height: 100%;
+            background-color: #E3E6E6;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            flex: 1 0 auto;
+            background-color: #ffffff; /* Fondo blanco */
+            padding: 1rem; /* Añadir padding si es necesario */
+            border-radius: 0.25rem; /* Añadir bordes redondeados si es necesario */
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+        }
+        .footer {
+            flex-shrink: 0;
+            font-size: 1.25rem;
+            padding: 0.75rem 0;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
+            <div class="container">
+                
+                @if(User == null)
+                {
+                     <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">RealStateWebApp</a>
+                    
+                }
+                else
+                {
+                    @if (IsClient)
+                    {
+                        <a class="navbar-brand" asp-area="" asp-controller="ClientHome" asp-action="Index">RealStateWebApp</a>
+                                
+
+                    }
+
+                    @if (IsAgent)
+                    {
+                        <a class="navbar-brand" asp-area="" asp-controller="AgentHome" asp-action="Index">RealStateWebApp</a>
+                                
+                    }
+
+                    @if (IsAdmin)
+                    {
+                        <a class="navbar-brand" asp-area="" asp-controller="AdminHome" asp-action="Index">RealStateWebApp</a>
+
+                    }
+                }
+
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        
+                        
+
+                        @if (User == null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li
+
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Agents">Agentes</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="User" asp-action="Register">Unete a la app</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-area="" asp-controller="User" asp-action="Index">Iniciar sesion</a>
+                            </li>
+
+                            
+                        }
+                        else
+                        {
+                            if (IsClient)
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" asp-area="" asp-controller="ClientHome" asp-action="Index">Home</a>
+                                </li
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" asp-area="" asp-controller="ClientHome" asp-action="Agents">Agentes</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" asp-area="" asp-controller="ClientHome" asp-action="MyProperties">Mis Propiedades</a>
+                                </li>
+
+                            }
+
+                            if (IsAgent)
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" asp-area="" asp-controller="AgentHome" asp-action="Index">Home</a>
+                                </li
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" asp-area="" asp-controller="Agent" asp-action="Update" >Mi Perfil</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" asp-area="" asp-controller="AgentHome" asp-action="GetAllByAgentId" >Mantenimiento propiedades</a>
+                                </li>
+                            }
+
+                            if (IsAdmin)
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" asp-area="" asp-controller="AdminHome" asp-action="Index">Home</a>
+                                </li
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" asp-area="" asp-controller="AdminHome" asp-action="Agents" >Mantenimiento agentes</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" asp-area="" asp-controller="AdminHome" asp-action="Admins" >Mantenimiento administradores</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" asp-area="" asp-controller="AdminHome" asp-action="Developers" >Mantenimiento desarrolladores</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" asp-area="" asp-controller="AdminHome" asp-action="PropertyTypes" asp-route-Id="@User.Id">Mantenimiento tipo propiedades</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" asp-area="" asp-controller="AdminHome" asp-action="SaleTypes" asp-route-Id="@User.Id">Mantenimiento tipo ventas</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" asp-area="" asp-controller="AdminHome" asp-action="Improvements" asp-route-Id="@User.Id">Mantenimiento mejoras</a>
+                                </li>
+                            }
+
+                            <ul class="nav justify-content-end">
+                                <li class="nav-item">
+                                    <a class="nav-link text-light float-end" asp-area="" asp-controller="User" asp-action="LogOut">Cerrar Sesion (@User.UserName)</a>
+                                </li>
+                            </ul>
+                        }
+
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container content">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="bg-dark border-top footer text-muted mt-3">
+        <div class="container text-light " >
+            &copy; 2024 - RealStateWebApp - Created by Oriam Ruiz
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

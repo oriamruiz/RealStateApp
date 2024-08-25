@@ -1,0 +1,99 @@
+﻿@model List<RealStateApp.Core.Application.ViewModels.AdminHome.AdminHomeDeveloperViewModel>
+
+
+@{
+    ViewData["Title"] = "Mant. de Desarrolladores";
+
+}
+<div class="container-fluid">
+    <div class="row mb-2">
+        <div class="col-9">
+            <h2 class="float-start">Mantenimiento de Desarrolladores</h2>
+
+        </div>
+        <div class="col-3 ">
+
+            <a asp-controller="Developer" asp-action="Register" class="btn btn-outline-success float-end">Crear desarrollador</a>
+
+        </div>
+
+
+    </div>
+
+    <div class="row">
+
+        @if (Model == null || Model.Count() == 0)
+        {
+            <div class="alert alert-warning ms-2" role="alert">
+                No hay desarrolladores para mostrar
+            </div>
+
+        }
+        else
+        {
+            @foreach (var developer in Model)
+            {
+
+                <div class="col-md-6 col-lg-2 mb-6">
+                    <div class="card shadow-sm border-light">
+                        <div class="card-body">
+                            
+                            <h5 class="card-title">@developer.UserName </h5>
+                           
+
+                            <hr />
+
+                            <span><strong>Estado:</strong></span>
+
+                            @if (developer.IsActive)
+                            {
+                                <p class="text-success">Activo</p>
+                            }
+                            else
+                            {
+                                <p class="text-danger">Inactivo</p>
+                            }
+
+
+                            <p class="card-text custom-paragraph"><strong>Nombre:</strong> @developer.FirstName</p>
+                            <p class="card-text custom-paragraph"><strong>Apellido:</strong> @developer.LastName</p>
+                            <p class="card-text custom-paragraph"><strong>cédula:</strong> @developer.Dni</p>
+                            <p class="card-text custom-paragraph"><strong>Correo:</strong> @developer.Email </p>
+                        </div>
+
+                        <div class="card-footer">
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                
+                                <div class="btn-group">
+
+                                    @if (developer.IsActive)
+                                    {
+                                        <a asp-controller="Developer" asp-action="ChangeStatus" asp-route-id="@developer.Id" class="btn btn-sm btn-outline-danger">Inactivar</a>
+
+                                    }
+                                    else
+                                    {
+                                        <a asp-controller="Developer" asp-action="ChangeStatus" asp-route-id="@developer.Id" class="btn btn-sm btn-outline-success">Activar</a>
+                                    }
+
+                                    <a asp-controller="Developer" asp-action="Update" asp-route-id="@developer.Id" class="btn btn-sm btn-outline-info">Editar</a>
+
+                                </div>
+
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            }
+
+        }
+
+    </div>
+
+</div>

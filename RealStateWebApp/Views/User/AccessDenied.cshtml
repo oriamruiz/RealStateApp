@@ -1,0 +1,60 @@
+﻿@using RealStateApp.Core.Application.Dtos.Account
+@using RealStateApp.Core.Application.Helpers.Sessions
+@using RealStateApp.Core.Application.Enums;
+@inject IHttpContextAccessor httpContextAccessor
+@{
+    var User = httpContextAccessor.HttpContext.Session.Get<AuthenticationResponse>("user");
+    var IsAdmin = User != null ? User.Roles.Any(r => r == Roles.ADMIN.ToString()) : false;
+    var IsAgent = User != null ? User.Roles.Any(r => r == Roles.AGENTE.ToString()) : false;
+    var IsClient = User != null ? User.Roles.Any(r => r == Roles.CLIENTE.ToString()) : false;
+}
+@{
+    ViewData["Title"] = "Access Denied";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <h3>No tiene permiso para entrar a esta seccion 
+                            
+                            @if(IsAdmin)
+                            {
+                                <a class="btn btn-warning" asp-controller="AdminHome" asp-action="Index">Volver al home </a>
+
+                            }
+                            else if(IsAgent)
+                            {
+                                <a class="btn btn-warning" asp-controller="AgentHome" asp-action="Index">Volver al home </a>
+
+                            }
+                            else if(IsClient)
+                            {
+                                <a class="btn btn-warning" asp-controller="ClientHome" asp-action="Index">Volver al home </a>
+                            }
+
+                            else
+                            {
+                                <a class="btn btn-warning" asp-controller="Home" asp-action="Index">Volver al home </a>
+                            }
+
+
+
+                        
+                        </h3>
+                        
+                    </div>
+
+                </div>
+                
+
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+

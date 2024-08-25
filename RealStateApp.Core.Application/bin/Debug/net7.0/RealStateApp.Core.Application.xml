@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RealStateApp.Core.Application</name>
+    </assembly>
+    <members>
+        <member name="T:RealStateApp.Core.Application.Dtos.Account.AuthenticationRequest">
+            <summary>
+            Parametros para autenticarse
+            </summary>
+        </member>
+        <member name="P:RealStateApp.Core.Application.Dtos.Account.AuthenticationRequest.UserName">
+            <example>
+            oriam_22
+            </example>
+        </member>
+        <member name="T:RealStateApp.Core.Application.Features.Agents.Commands.ChangeAgentStatusById.ChangeAgentStatusByIdCommand">
+            <summary>
+            parametros para cambiar estado de agente
+            </summary>
+        </member>
+        <member name="P:RealStateApp.Core.Application.Features.Agents.Commands.ChangeAgentStatusById.ChangeAgentStatusByIdCommand.Id">
+            <example>
+            a59f1445-8679-4a2d-a8a6-aaaad23b220a
+            </example>
+        </member>
+        <member name="P:RealStateApp.Core.Application.Features.Agents.Commands.ChangeAgentStatusById.ChangeAgentStatusByIdCommand.Status">
+            <example>
+            True = activo, false = inactivo
+            </example>
+        </member>
+        <member name="T:RealStateApp.Core.Application.Features.Agents.Queries.GetAgentById.GetAgentByIdQuery">
+            <summary>
+            Parametro para buscar el agente
+            </summary>
+        </member>
+        <member name="P:RealStateApp.Core.Application.Features.Agents.Queries.GetAgentById.GetAgentByIdQuery.Id">
+            <example>
+            a59f1445-8679-4a2d-a8a6-aaaad23b220a
+            </example>
+        </member>
+        <member name="T:RealStateApp.Core.Application.Features.Improvements.Commands.CreateImprovement.CreateImprovementCommand">
+            <summary>
+            Parametros para la creacion de una mejora
+            </summary>
+        </member>
+        <member name="P:RealStateApp.Core.Application.Features.Improvements.Commands.CreateImprovement.CreateImprovementCommand.Name">
+            <example>
+            Piscina
+            </example>
+        </member>
+        <member name="P:RealStateApp.Core.Application.Features.Improvements.Commands.CreateImprovement.CreateImprovementCommand.Description">
+            <example>
+            La mejora "Piscina" consiste en la instalación de una piscina en la propiedad....
+            </example>
+        </member>
+        <member name="T:RealStateApp.Core.Application.Features.Improvements.Commands.DeleteImprovementById.DeleteImprovementByIdCommand">
+            <summary>
+            Parametros para eliminar una mejora
+            </summary>
+        </member>
+        <member name="P:RealStateApp.Core.Application.Features.Improvements.Commands.DeleteImprovementById.DeleteImprovementByIdCommand.Id">
+            <example>
+            1
+            </example>
+        </member>
+        <member name="T:RealStateApp.Core.Application.Features.Improvements.Commands.UpdateImprovement.UpdateImprovementCommand">
+            <summary>
+            Parametros para la actualizacion de una mejora
+            </summary>
+        </member>
+        <member name="T:RealStateApp.Core.Application.Features.Improvements.Queries.GetImprovementById.GetImprovementByIdQuery">
+            <summary>
+            Parametros para la busqueda de mejora
+            </summary>
+        </member>
+        <member name="P:RealStateApp.Core.Application.Features.Improvements.Queries.GetImprovementById.GetImprovementByIdQuery.Id">
+            <example>
+            1
+            </example>
+        </member>
+        <member name="T:RealStateApp.Core.Application.Features.Properties.Queries.GetAgentProperties.GetAgentPropertiesQuery">
+            <summary>
+            parametro para buscar propiedades de agente
+            </summary>
+        </member>
+        <member name="P:RealStateApp.Core.Application.Features.Properties.Queries.GetAgentProperties.GetAgentPropertiesQuery.Id">
+            <example>
+            a59f1445-8679-4a2d-a8a6-aaaad23b220a
+            </example>
+        </member>
+        <member name="T:RealStateApp.Core.Application.Features.Properties.Queries.GetProperty.GetPropertyParameter">
+            <example>
+            parametros para filtrar propiedades
+            </example>
+        </member>
+        <member name="T:RealStateApp.Core.Application.Features.Properties.Queries.GetProperty.GetPropertyQuery">
+            <summary>
+            parametros para filtrar propiedades
+            </summary>
+        </member>
+        <member name="P:RealStateApp.Core.Application.Features.Properties.Queries.GetProperty.GetPropertyQuery.Id">
+            <example>
+            1
+            </example>
+        </member>
+        <member name="P:RealStateApp.Core.Application.Features.Properties.Queries.GetProperty.GetPropertyQuery.Code">
+            <example>
+            919164
+            </example>
+        </member>
+        <member name="T:RealStateApp.Core.Application.Features.PropertyTypes.Commands.CreatePropertyType.CreatePropertyTypeCommand">
+            <summary>
+            Parametros para la creacion de un tipo de propiedad
+            </summary>
+        </member>
+        <member name="P:RealStateApp.Core.Application.Features.PropertyTypes.Commands.CreatePropertyType.CreatePropertyTypeCommand.Name">
+            <example>
+            Apartamento
+            </example>
+        </member>
+        <member name="P:RealStateApp.Core.Application.Features.PropertyTypes.Commands.CreatePropertyType.CreatePropertyTypeCommand.Description">
+            <example>
+            Una unidad de vivienda independiente ubicada dentro de un edificio de múltiples pisos.....
+            </example>
+        </member>
+        <member name="T:RealStateApp.Core.Application.Features.PropertyTypes.Commands.DeletePropertyTypeById.DeletePropertyTypeByIdCommand">
+            <summary>
+            Parametros para eliminar un tipo de propiedad
+            </summary>
+        </member>
+        <member name="P:RealStateApp.Core.Application.Features.PropertyTypes.Commands.DeletePropertyTypeById.DeletePropertyTypeByIdCommand.Id">
+            <example>
+            1
+            </example>
+        </member>
+        <member name="T:RealStateApp.Core.Application.Features.PropertyTypes.Commands.UpdatePropertyType.UpdatePropertyTypeCommand">
+            <summary>
+            Parametros para la actualizacion de un tipo de propiedad
+            </summary>
+        </member>
+        <member name="T:RealStateApp.Core.Application.Features.PropertyTypes.Queries.GetPropertyTypeByIdQuery.GetPropertyTypeByIdQuery">
+            <summary>
+            parametros para filtrar tipo de producto
+            </summary>
+        </member>
+        <member name="P:RealStateApp.Core.Application.Features.PropertyTypes.Queries.GetPropertyTypeByIdQuery.GetPropertyTypeByIdQuery.Id">
+            <example>
+            1
+            </example>
+        </member>
+        <member name="T:RealStateApp.Core.Application.Features.SaleTypes.Commands.CreateSaleType.CreateSaleTypeCommand">
+            <summary>
+            Parametros para la creacion de un tipo de venta
+            </summary>
+        </member>
+        <member name="P:RealStateApp.Core.Application.Features.SaleTypes.Commands.CreateSaleType.CreateSaleTypeCommand.Name">
+            <example>
+            Alquiler
+            </example>
+        </member>
+        <member name="P:RealStateApp.Core.Application.Features.SaleTypes.Commands.CreateSaleType.CreateSaleTypeCommand.Description">
+            <example>
+            Propiedad disponible para arrendamiento, ideal para.....
+            </example>
+        </member>
+        <member name="T:RealStateApp.Core.Application.Features.SaleTypes.Commands.DeleteSaleTypeById.DeleteSaleTypeByIdCommand">
+            <summary>
+            Parametros para eliminar un tipo de venta
+            </summary>
+        </member>
+        <member name="P:RealStateApp.Core.Application.Features.SaleTypes.Commands.DeleteSaleTypeById.DeleteSaleTypeByIdCommand.Id">
+            <example>
+            1
+            </example>
+        </member>
+        <member name="T:RealStateApp.Core.Application.Features.SaleTypes.Commands.UpdateSaleType.UpdateSaleTypeCommand">
+            <summary>
+            Parametros para la actualizacion de un tipo de venta
+            </summary>
+        </member>
+        <member name="T:RealStateApp.Core.Application.Features.SaleTypes.Queries.GetSaleTypeById.GetSaleTypeByIdQuery">
+            <summary>
+            parametros para filtrar tipo de producto
+            </summary>
+        </member>
+        <member name="P:RealStateApp.Core.Application.Features.SaleTypes.Queries.GetSaleTypeById.GetSaleTypeByIdQuery.Id">
+            <example>
+            1
+            </example>
+        </member>
+        <member name="T:RealStateApp.Core.Application.ViewModels.Users.CreateAdminOrDeveloperViewModel">
+            <summary>
+            parametros para crear un agente/admin
+            </summary>
+        </member>
+        <member name="P:RealStateApp.Core.Application.ViewModels.Users.CreateAdminOrDeveloperViewModel.FirstName">
+            <example>
+            oriam
+            </example>
+        </member>
+        <member name="P:RealStateApp.Core.Application.ViewModels.Users.CreateAdminOrDeveloperViewModel.LastName">
+            <example>
+            ruiz
+            </example>
+        </member>
+        <member name="P:RealStateApp.Core.Application.ViewModels.Users.CreateAdminOrDeveloperViewModel.Dni">
+            <example>
+            45875843
+            </example>
+        </member>
+        <member name="P:RealStateApp.Core.Application.ViewModels.Users.CreateAdminOrDeveloperViewModel.Email">
+            <example>
+            oriam_22@gmail.com
+            </example>
+        </member>
+        <member name="P:RealStateApp.Core.Application.ViewModels.Users.CreateAdminOrDeveloperViewModel.UserName">
+            <example>
+            oriam_22
+            </example>
+        </member>
+        <member name="P:RealStateApp.Core.Application.ViewModels.Users.CreateAdminOrDeveloperViewModel.Password">
+            <example>
+            123Pa$$word!
+            </example>
+        </member>
+    </members>
+</doc>

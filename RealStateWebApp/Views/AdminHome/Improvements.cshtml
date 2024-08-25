@@ -1,0 +1,65 @@
+﻿@model List<RealStateApp.Core.Application.ViewModels.AdminHome.AdminHomeImprovementsViewModel>
+@{
+    ViewData["Title"] = "Mant. de mejoras";
+
+}
+
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-9">
+            <h2 class="float-start">Mantenimiento de mejoras</h2>
+
+        </div>
+        <div class="col-3 ">
+
+            <a asp-controller="Improvement" asp-action="Create" class="btn btn-outline-success float-end">Agregar nueva mejora</a>
+
+        </div>
+
+
+    </div>
+
+    <div class="row">
+
+        @if (Model == null || Model.Count() == 0)
+        {
+            <div class="alert alert-warning ms-2" role="alert">
+                No hay mejoras creadas
+            </div>
+
+        }
+        else
+        {
+            @foreach (var Imp in Model)
+            {
+
+                <div class="col-3 mb-4">
+                    <div class="card shadow-sm">
+
+                        <div class="card bg-light text-center ">
+                            <div class="card-body">
+                                <p class="card-text custom-paragraph"><strong>Nombre:</strong> @Imp.Name</p>
+                                <p class="card-text custom-paragraph"><strong>Descripcion:</strong> @Imp.Description</p>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="btn-group">
+                                    <a asp-controller="Improvement" asp-action="Update" asp-route-id="@Imp.Id" class="btn btn-sm btn-outline-info">Editar</a>
+                                    <a asp-controller="Improvement" asp-action="Delete" asp-route-id="@Imp.Id" class="btn btn-sm btn-outline-danger">Eliminar</a>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            }
+
+        }
+
+    </div>
+
+</div>
+
